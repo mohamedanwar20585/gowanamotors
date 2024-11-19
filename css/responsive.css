@@ -117,6 +117,14 @@ p.large {
     margin-top: 15px;
 }
 
+.left_header_info {
+    width: 100%;
+    float: right;
+    padding: 15px 0 0;
+    border-top: solid rgba(255,255,255,.2) 1px;
+    margin-top: 15px;
+}
+
 .right_header_info ul li {
     display: inline;
     font-size: 18px;
@@ -125,12 +133,27 @@ p.large {
     float: left;
     text-align: center;
 }
+.left_header_info ul li {
+    display: inline;
+    font-size: 18px;
+    margin-right: 0;
+    width: 25%;
+    float: right;
+    text-align: center;
+}
 
 .right_header_info ul {
     list-style: none;
     padding: 0;
     margin: 0;
     float: right;
+    width: 100%;
+}
+.left_header_info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
     width: 100%;
 }
 
@@ -144,8 +167,21 @@ p.large {
     display: flex;
     justify-content: center;
 }
+.left_header_info ul li {
+    display: inline;
+    font-size: 18px;
+    margin-left: 0;
+    width: 25%;
+    float: right;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
 .right_header_info ul li a {
+    font-size: 0;
+}
+.left_header_info ul li a {
     font-size: 0;
 }
 
@@ -189,7 +225,7 @@ p.large {
     height: 200px;
     display: block;
     position: absolute;
-    background: url('../images/cross_blue.png');
+    /* background: url('../images/cross_blue.png'); */
         background-size: auto;
     top: -200px;
     z-index: 9;
@@ -210,6 +246,13 @@ p.large {
     width: 100%;
     float: left;
     padding: 20px 0 0;
+    text-align: right;
+}
+.left_header_info {
+    width: 100%;
+    float: right;
+    padding: 20px 0 0;
+    text-align: left;
 }
 
 .right_header_info ul {
@@ -219,6 +262,13 @@ p.large {
     float: right;
     width: 100%;
 }
+.left_header_info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
 
 .right_header_info ul li {
     width: 25%;
@@ -226,8 +276,17 @@ p.large {
     text-align: center;
     margin: 0;
 }
+.left_header_info ul li {
+    width: 25%;
+    float: right;
+    text-align: center;
+    margin: 0;
+}
 
 .right_header_info ul li a {
+    font-size: 0;
+}   
+.left_header_info ul li a {
     font-size: 0;
 }   
 
@@ -239,7 +298,7 @@ p.large {
 }
 
 .slider_cont_section h4 {
-    color: #9b8f01;
+    color: #324365;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 700;
@@ -301,7 +360,7 @@ p.large {
 .button_section a {
     width: 180px;
     height: 45px;
-    background: #9b8f01;
+    background: #324365;
     float: left;
     margin-right: 15px;
     line-height: 45px;
@@ -330,7 +389,7 @@ h2.heading_main {
     line-height: 75px;
     min-width: auto;
     float: left;
-    background: #9b8f01;
+    background: #324365;
     margin-bottom: 45px;
 }
 
@@ -340,7 +399,7 @@ h2.heading_main {
     height: 100px;
     display: block;
     position: absolute;
-    background: url('../images/cross_blue.png');
+    /* background: url('../images/cross_blue.png'); */
     top: -100px;
     z-index: 9;
     background-size: 100% 100%;
@@ -366,7 +425,7 @@ h2.heading_main {
     height: 100px;
     display: block;
     position: absolute;
-    background: url('../images/cross_orange.png');
+    /* background: url('../images/cross_orange.png'); */
     top: -100px;
     z-index: 9;
     background-size: 100% 100%;
@@ -401,7 +460,7 @@ footer h3 {
     font-size: 30px;
     font-weight: 600;
     padding: 0 0 15px 0;
-    border-bottom: solid #9b8f01 1px;
+    border-bottom: solid #324365 1px;
     float: left;
     width: 100%;
     text-align: center;
@@ -449,7 +508,6 @@ h4.widget_heading {
 }
 
 .cross_layout {
-    min-height: 1190px;
     margin-top: 100px;
 }
 
@@ -468,13 +526,25 @@ h4.widget_heading {
     float: left;
     padding: 20px 0 0;
 }
+.left_header_info {
+    width: 100%;
+    float: right;
+    padding: 20px 0 0;
+}
 
 .right_header_info ul {
     list-style: none;
     padding: 0;
     margin: 0;
     float: right;
-    width: 100%;
+    width: 75%;
+}
+.left_header_info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 75%;
 }
 
 .right_header_info ul li {
@@ -483,8 +553,17 @@ h4.widget_heading {
     text-align: center;
     margin: 0;
 }
+.left_header_info ul li {
+    width: 25%;
+    float: right;
+    text-align: center;
+    margin: 0;
+}
 
 .right_header_info ul li a {
+    font-size: 0;
+}   
+.left_header_info ul li a {
     font-size: 0;
 }   
 
@@ -495,7 +574,7 @@ h4.widget_heading {
 }
 
 .slider_cont_section h4 {
-    color: #9b8f01;
+    color: #324365;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 700;
@@ -557,7 +636,7 @@ p.large {
 .button_section a {
     width: 180px;
     height: 45px;
-    background: #9b8f01;
+    background: #324365;
     float: left;
     margin-right: 15px;
     line-height: 45px;
@@ -586,7 +665,7 @@ h2.heading_main {
     line-height: 75px;
     min-width: auto;
     float: left;
-    background: #9b8f01;
+    background: #324365;
     margin-bottom: 45px;
 }
 
@@ -596,7 +675,7 @@ h2.heading_main {
     height: 100px;
     display: block;
     position: absolute;
-    background: url('../images/cross_blue.png');
+    /* background: url('../images/cross_blue.png'); */
     top: -100px;
     z-index: 9;
 }
@@ -621,7 +700,7 @@ h2.heading_main {
     height: 100px;
     display: block;
     position: absolute;
-    background: url('../images/cross_orange.png');
+    /* background: url('../images/cross_orange.png'); */
     top: -100px;
     z-index: 9;
 }
@@ -655,7 +734,7 @@ footer h3 {
     font-size: 30px;
     font-weight: 600;
     padding: 0 0 15px 0;
-    border-bottom: solid #9b8f01 1px;
+    border-bottom: solid #324365 1px;
     float: left;
     width: 100%;
     text-align: center;

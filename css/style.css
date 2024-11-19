@@ -1635,6 +1635,11 @@ input[type="radio"] .styled:checked+label::after {
     float: left;
     padding: 20px 0 0;
 }
+.left_header_info {
+    width: 100%;
+    float: right;
+    padding: 20px 0 0;
+}
 
 .right_header_info ul {
     list-style: none;
@@ -1642,8 +1647,19 @@ input[type="radio"] .styled:checked+label::after {
     margin: 0;
     float: right;
 }
+.left_header_info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
 
 .right_header_info ul li {
+    display: inline;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.left_header_info ul li {
     display: inline;
     font-size: 18px;
     margin-left: 50px;
@@ -1653,9 +1669,13 @@ input[type="radio"] .styled:checked+label::after {
     color: #fff;
     font-weight: 300;
 }
+.left_header_info ul li a {
+    color: #fff;
+    font-weight: 300;
+}
 
 .slider_cont_section h4 {
-    color: #9b8f01;
+    color: #324365;
     text-transform: uppercase;
     font-size: 48px;
     font-weight: 700;
@@ -1685,7 +1705,7 @@ input[type="radio"] .styled:checked+label::after {
 .button_section a {
     width: 190px;
     height: 50px;
-    background: #9b8f01;
+    background: #324365;
     float: left;
     margin-right: 15px;
     line-height: 50px;
@@ -1882,7 +1902,7 @@ input[type="radio"] .styled:checked+label::after {
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #fff;
-    background: #9b8f01;
+    background: #324365;
 }
 
 a[data-toggle="collapse"] {
@@ -1963,21 +1983,21 @@ p.large {
 }
 
 .dark_bg_blue {
-	background: #0a2a1a;
+	background: #0b2547;
 }
 
 .dark_bg_orange {
-	background: #9b8f01;
+	background: #324365;
 }
 
 .cross_layout {
-    min-height: 780px;
-    margin-top: 300px;
+    /* min-height: 780px; */
+    margin-top: 15px;
     position: relative;
 }
 
 .cross_layout_o {
-    min-height: 850px;
+    /* min-height: 850px; */
     margin-top: 0;
     position: relative;
 }
@@ -1988,14 +2008,14 @@ p.large {
     height: 300px;
     display: block;
     position: absolute;
-    background: url('../images/cross_blue.png');
+    /* background: url('../images/cross_blue.png'); */
     top: -300px;
     z-index: 9;
 }
 
 .cross_layout_o {
-    min-height: 1000px;
-    margin-top: 300px;
+    /* min-height: 1000px; */
+    margin-top: 15px;
     position: relative;
 }
 
@@ -2006,7 +2026,7 @@ p.large {
     height: 300px;
     display: block;
     position: absolute;
-    background: url('../images/cross_orange.png');
+    /* background: url('../images/cross_orange.png'); */
     top: -300px;
     z-index: 9;
 
@@ -2023,8 +2043,9 @@ h2.heading_main {
     line-height: 90px;
     min-width: 445px;
     float: left;
-    background: #9b8f01;
+    background: #324365;
     margin-bottom: 75px;
+	border-radius: 15px;
 }
 
 .choose_blog h4 {
@@ -2051,7 +2072,7 @@ h2.heading_main {
 }
 
 .dark_bg_orange h2.heading_main.orange_heading {
-    background: #0a2a1a;
+    background: #0b2547;
 }
 
 .testimonial_cont {
@@ -2066,7 +2087,7 @@ h2.heading_main {
 #testimonial_slider .carousel-indicators li {
     width: 36px;
     height: 12px;
-    background-color: #604b07;
+    background-color: #041027;
     border-radius: 50px;
 }
 
@@ -2079,7 +2100,7 @@ h2.heading_main {
 }
 
 .ornage_color {
-	color: #9b8f01 !important;
+	color: #324365 !important;
 }
 
 p strong {
@@ -2124,7 +2145,7 @@ p strong {
 button.submit_bt {
     width: 165px;
     height: 51px;
-    background: #9b8f01;
+    background: #324365;
     color: #fff;
     font-size: 15px;
     font-weight: 300;
@@ -2143,7 +2164,7 @@ button.submit_bt:focus {
 /** footer **/
 
 footer {
-    background: #0a2a1a;
+    background: #0b2547;
     border-top: solid rgba(255,255,255,.2) 1px;
     padding: 75px 0;
 }
@@ -2153,7 +2174,7 @@ footer h3 {
     font-size: 35px;
     font-weight: 600;
     padding: 0;
-    border-bottom: solid #9b8f01 1px;
+    border-bottom: solid #324365 1px;
     float: left;
 }
 
@@ -2179,10 +2200,10 @@ ul.social_links li {
 }
 
 ul.social_links li a {
-    color: #9b8f01;
+    color: #324365;
     width: 40px;
     height: 40px;
-    border: solid #9b8f01 1px;
+    border: solid #324365 1px;
     float: left;
     text-align: center;
     line-height: 40px;
@@ -2192,7 +2213,7 @@ ul.social_links li a {
 
 ul.social_links li a:hover,
 ul.social_links li a:focus {
-	background: #9b8f01;
+	background: #324365;
 	color: #fff;
 }
 
@@ -2226,7 +2247,7 @@ ul.social_links li a:focus {
 /* .f_menu ul li::after {
     width: 10px;
     height: 10px;
-    background: #9b8f01;
+    background: #324365;
     content: "";
     position: absolute;
     left: 0;
@@ -2268,7 +2289,7 @@ ul.social_links li a:focus {
 }
 
 .cpy_right p a:hover,.cpy_right p a:focus {
-	color: #9b8f01;
+	color: #324365;
 	text-decoration: underline;
 }
 
